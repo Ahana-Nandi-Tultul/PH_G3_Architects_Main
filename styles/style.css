@@ -1,0 +1,97 @@
+/*--------------------------
+    import stylesheet
+---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Work+Sans:wght@700&display=swap');
+
+/*----------------------
+    common style
+-----------------------*/
+*{
+    margin:0;
+    padding:0;
+}
+body{
+   
+    font-family: 'Work Sans';
+}
+
+/*---------------------
+    front section
+----------------------*/
+.before-front-section{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.front-section{
+    width:80%;
+    margin:auto;
+}
+/* header */
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+.header-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-li{
+    list-style: none;
+    margin-left: 50px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    
+}
+
+
+/* front bottom section */
+.front-bottom-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.front-bottom-box{
+    width:60%;
+    text-align: center;
+    margin:90px 0px 50px;
+    
+}
+.front-title{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    color: #131313;
+}
+.front-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 10px;
+}
+.btn-primary{
+    background-color: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    border: none;
+    padding: 20px 25px;
+    margin-top: 30px;
+}
+.front-section-img{
+    width:100%;
+    border-radius: 8px;
+}
